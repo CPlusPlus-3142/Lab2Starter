@@ -1,4 +1,4 @@
- LAB 1 -- C-style arrays, files, reference parameters
+ LAB 2 -- C-style arrays, files, functions
 
 -------------------------------------------------------------------
 
@@ -12,8 +12,6 @@ If you want to delete the executable to start again, you can type:
 make clean
 
 --------------------------------------------------------------------
-
- In class we saw code that reads a file line by line.
 
  In this lab, you will write functions to:
  - read a file word by word and populate an array of type string

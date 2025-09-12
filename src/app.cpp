@@ -3,42 +3,36 @@
 #include <iostream>
 #include <array>
 #include <cstdlib>
-#include "../include/lab1.h"
+#include "../include/lab2.h"
 
 using namespace std;
 
-void print(string names[], size_t size, string filename)
+void print(double nums[], size_t size)
 {   
    
 }
 
-void swap(string &a, string &b)
+
+int load(double nums[], size_t size, string filename)
 {
-   
 }
 
-int load(string names[], size_t size, string filename)
+void sort(double nums[], size_t size)
 {
-
-   
 }
 
-void sort(string names[], size_t size)
-{
-   
-}
 
 /*************************************************************************************** 
- * You can put this in to help you test your code.
+ * You can put this in to help you test your code. 
  
 int main()
 {
     string filename = "my_file.txt";
     const size_t SIZE = 100;
-    string names[SIZE];
-
-    int sz = load(names, SIZE, filename);
-    sort(names, sz);
-    print(names, sz, "output.txt");
+    double measurements[SIZE];
+    int sz = load(measurements, SIZE, filename);
+    sort(measurements, sz);
+    print(measurements, sz);
     return 0;
-}*/
+}
+***************************************************************************************/
