@@ -15,7 +15,7 @@ make clean
 
  In this lab, you will write functions to:
  - read numbers from a file and populate an array of type double
- - sort the array of type string
+ - sort the array 
  - print the array to a file 
  - a swap function that will be called by the sort function
  
